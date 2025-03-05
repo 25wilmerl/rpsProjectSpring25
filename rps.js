@@ -35,7 +35,8 @@ switch(input){
 
 Playerinput()
 function Botinput(max){
-    BotChoice = Math.ceil(Math.random() * max)
+    PlayerChoice = Math.ceil(Math.random() * max)
+    BotChoice = Math.floor(Math.random() * max)
     if(PlayerChoice == BotChoice){
         console.log("You tied, I hope you do better next time")
     } else if(PlayerChoice == Rock){
@@ -66,7 +67,3 @@ function Botinput(max){
     } console.log(Playerscore);
     console.log(Botscore);
 }
-
-// Math.ceil(Math.random)
-// console.log(PlayerChoice);
-// console.log(BotChoice);
