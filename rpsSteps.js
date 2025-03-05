@@ -19,18 +19,18 @@ to play the game, so you'll to write each of these functions.*/
 7.  /*When it's all said and done, I will help you get GitHub to host this webpage, 
 so that you can play it from anywhere.*/
 
-Here are some things that might help you:
-1 function should be getting the computer's choice for that round
-(Math.random() lets you get a random number, you can use stuff to help that choose between 3 choices)
+// Here are some things that might help you:
+1 //function should be getting the computer's choice for that round
+// (Math.random() lets you get a random number, you can use stuff to help that choose between 3 choices)
 
-1 function should get the human's choice.  (prompt() is a good option here).
+1 //function should get the human's choice.  (prompt() is a good option here).
 
-when we're completely done with this project, it will be a first player to 
-5 wins version of the game.  Make variables to keep track of the score.
+// when we're completely done with this project, it will be a first player to 
+5 //wins version of the game.  Make variables to keep track of the score.
 
-Once you've written the functions to get choices, write code to play just 
-one round, and make sure that's working properly, before you expand to the first 5 version.  
+// Once you've written the functions to get choices, write code to play just 
+// one round, and make sure that's working properly, before you expand to the first 5 version.  
 
-MAKE SURE:  when the winner is declared, it should give a message like "You win!  Paper beats rock!"  
-Or "You lose!  Scissors beats paper!"  Messages like "Sorry, you lose" or "Congrats you win", don't 
-make your player trust that the program is fair.
+// MAKE SURE:  when the winner is declared, it should give a message like "You win!  Paper beats rock!"  
+// Or "You lose!  Scissors beats paper!"  Messages like "Sorry, you lose" or "Congrats you win", don't 
+// make your player trust that the program is fair.
